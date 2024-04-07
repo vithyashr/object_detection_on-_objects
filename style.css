@@ -1,0 +1,111 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8919121;
+}
+
+h1 {
+    background: linear-gradient(to right, #ff3e75, #ff3e75, #ff793f, #ffc94f);
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 2px solid #d63031;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.gallery button {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.gallery button:hover {
+    transform: scale(1.05);
+}
+
+.gallery a {
+    text-decoration: none;
+    color: #333;
+}
+
+.gallery a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #d63031;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    color: #555;
+    line-height: 1.6;
+}
+
+#crf {
+    position: fixed;
+    bottom: 0;
+    color: #ffffff;
+    background: linear-gradient(to right, #ff3e75, #ff3e75, #ff793f, #ffc94f);
+    text-align: center;
+    line-height: 2;
+    width: 100%;
+    font-weight: bolder;
+    box-shadow: 6px 6px 6px rgb(89, 89, 89);
+}
+
+#goback {
+    width: 100px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    padding: 5px;
+    font-weight: bolder;
+    background: linear-gradient(to right, #ff3e75, #ff3e75, #ff793f, #ffc94f);
+    color: antiquewhite;
+    border-color: aliceblue;
+    float: right;
+    margin-right: 10px;
+    
+
+}
+
+#goback:hover {
+    transform: scale(1.05);
+}
+
+#div1{
+
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 100px;
+}
